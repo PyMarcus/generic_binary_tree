@@ -139,7 +139,6 @@ public:
             in_order(node->get_left_node());
             std::cout << node->get_value() << " ";
             in_order(node->get_right_node());
-
         }
     }
 
